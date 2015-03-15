@@ -87,7 +87,7 @@
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
-    margin-top: 18rem; }
+    margin-top: 7.5pxrem; }
   .value-props {
     margin-top: 9rem;
     margin-bottom: 7rem; }
@@ -222,4 +222,28 @@
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
+}
+
+body
+{
+  background: whitesmoke;
+  /*background: #1abc9c;*/
+}
+.container
+{
+
+  color: #0c1e30;
+}
+.docs-section
+{
+  font-size: 150%;
+}
+.docs-header
+{
+  font-size: 150%;
+}
+.container .title
+{
+  color: #00ab91;
+  font-size: 15em;
 }
